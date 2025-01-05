@@ -1,0 +1,149 @@
+@media screen and (max-width: 1205px){
+    .input-container{
+        top: 75px;
+    }
+}
+@media screen and (max-width: 896px){
+    input{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 64px;
+    }
+    input{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 676px){
+    h1{
+        font-size: 72px;
+        white-space: normal;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 64px;
+    }
+}
+@media screen and (max-width: 456px){
+    h1{
+        font-size: 56px;
+    }
+    input{
+        width: 70%;
+    }
+    .d_flex_c_c{
+        flex-direction: column;
+    }
+    .card{
+        height: 300px;
+        width: 220px;
+    }
+    .pokemonimage:hover{
+        height: 280px;
+        width: 280px;
+    }
+}
+@media screen and (max-width: 400px){
+    .viewpokemoncard{
+        width: 365px;
+    }
+    h5{
+        font-size: 32px;
+    }
+    .info-pokemonname{
+        width: 200px;
+    }
+    .arrow-icon{
+        height:50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 365px){
+    input{
+        width: 75%;
+    }
+    .viewpokemoncard{
+        width: 335px;
+    }
+    .size-skillchartpokemoncard{
+        width: 295px;
+    }
+}
+@media screen and (max-width: 340px){
+    .viewpokemoncard{
+        height: 80vh; 
+        width: 315px;
+    }
+    .size-skillchartpokemoncard{
+        width: 270px;
+    }
+    .info-pokemonname{
+        width: 165px;
+    }
+    h5{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 310px){
+    h1{
+        font-size: 48px;
+    }
+    input{
+        width: 85%;
+    }
+    button{
+        padding: 8px 13px;
+    }
+}
+@media screen and (max-height: 2000px){
+    .viewpokemoncard{
+        height: 730px;
+    }
+}
+@media screen and (max-height: 820px){
+    .info-pokemoncard{
+        height: 330px;
+    }
+    .size-skillchartpokemoncard{
+        height: 200px;
+    }
+    .viewpokemoncard{
+    height: 680px;
+    }
+}
+@media screen and (max-height: 750px){
+    .info-pokemoncard{
+        height: 300px;
+    }
+    .size-skillchartpokemoncard{
+        height: 180px;
+    }
+    .viewpokemoncard{
+    height: 650px;
+    }
+}
+@media screen and (max-height: 660px){
+    .info-pokemoncard{
+        height: 270px;
+    }
+    .size-skillchartpokemoncard{
+        height: 150px;
+    }
+    .viewpokemoncard{
+    height: 545px;
+    }
+    .head-pokemoncard{
+    height: 300px;
+    }
+    .pokemoncardimage{
+        height: 225px;
+        width: 250px;
+    }
+    .pokemoncardimage:hover{
+        height: 275px;
+        width: 275px;
+    }
+}

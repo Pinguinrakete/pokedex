@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Pokedex</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="standard.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+  </head>
+  <body onload="init()">
+
+    <div class="customerscreen">
+      <main class="fullhd d_flexdirection_c">
+        <h1>Pokémon Pokédex</h1>
+        <div class="input-container d_flex_c_c">
+          <input type="text" onkeyup="searchPokemon()" id="search" placeholder="Search Pokémon"/>
+        </div>
+        <div class="card-container cardposition" id="card"></div>
+        <div class="d_flex_c_c">
+          <button onclick="loadCard()">lade weitere Pokémon</button>
+          <button onclick="pageUp()" id="arrowbtn">
+            <img class="arrow" src="./img/arrow.png" />
+          </button>
+        </div>
+      </main>
+    </div>
+ 
+    <div class="viewpokemoncard-bg d-none" id="dark-bg" onclick="closePokemonCard()">
+      <div id="pokemoncard">
+      </div>
+    </div>
+
+  </body>
+</html>
